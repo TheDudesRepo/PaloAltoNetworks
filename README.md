@@ -1,1 +1,2 @@
 # PaloAltoNetworks
+This script will look at all of the firewalls that are in your panorama and backs up the device state and emails you how it went. Having the device state backup is the single most important backup for a Palo Alto Firewall. You can schedule this to run daily to have a nice history. The device state configs are not human readable. This procedure also encrypts the API key so it can only be decrypted by the user that encrypted it on the windows machine and it also has to be run from the same windows machine it was created on. 
